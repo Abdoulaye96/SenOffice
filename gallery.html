@@ -1,0 +1,261 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mega - Responsive Hotel Template</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.css" rel="stylesheet">
+		<link href="css/owl.transitions.css" rel="stylesheet">
+		<link href="css/cs-select.css" rel="stylesheet">
+		<link href="css/bootstrap-datepicker3.min.css" rel="stylesheet">
+		<link href="css/freepik.hotels.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+
+
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+		<script src="js/modernizr.custom.min.js"></script>
+	</head>
+	<body>
+		<div class="preloader"></div>
+		<header class="header transp sticky"> <!-- available class for header: .sticky .center-content .transp -->
+			<nav class="navbar navbar-inverse">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li  class="active"><a href="index.html">Acceuil</a></li>
+							<li><a href="gallery.html">Catalogue</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Espace client<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="signin.html">Connexion</a></li>
+									<li><a href="register.html">Inscription</a></li>
+								
+								</ul>
+							</li>
+							<li><a href="#">Partagez votre salle</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+					<div class="mg-search-box-cont pull-right">
+						<a href="#" class="mg-search-box-trigger"><i class="fa fa-search"></i></a>
+						<div class="mg-search-box">
+							<form>
+								<input type="text" name="s" class="form-control" placeholder="Type Keyword...">
+								<button type="submit" class="btn btn-main"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+					</div>
+				</div><!-- /.container-fluid -->
+			</nav>
+		</header>
+
+
+		<div class="mg-page-title parallax">
+			<div class="container ">
+				<div class="row ">
+					
+					<div class="col-md-12">
+							
+						<h2>Consulter la liste de nos salles</h2>
+						<p>Tous nos types de salles classés par rapport a vos activités.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mg-gallery-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mg-filter">
+							<form id="mg-filter">
+								<fieldset>
+									<label class="btn btn-dark btn-main"><input type="radio" name="filter" value="all" checked="checked">Tout</label>
+									<label class="btn btn-dark"><input type="radio" name="filter" value="classic">Seminaires</label>
+									<label class="btn btn-dark"><input type="radio" name="filter" value="deluxe">Informatiques</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Journées etudes</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Auditorium/Emphithéatre</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Formation</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Coktails</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Team Bulding</label>
+								</fieldset>
+							</form>
+						</div>
+
+						<div class="row" id="mg-grid">
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="images/room-1.png" data-lightbox-gallery="rooms"><img src="images/room-1.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["deluxe"]'>
+								<a href="images/room-2.png" data-lightbox-gallery="rooms"><img src="images/room-2.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["royal"]'>
+								<a href="images/room-3.png" data-lightbox-gallery="rooms"><img src="images/room-3.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="images/room-4.png" data-lightbox-gallery="rooms"><img src="images/room-4.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["deluxe"]'>
+								<a href="images/room-1.png" data-lightbox-gallery="rooms"><img src="images/room-5.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="images/room-2.png" data-lightbox-gallery="rooms"><img src="images/room-6.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["royal"]'>
+								<a href="images/room-3.png" data-lightbox-gallery="rooms"><img src="images/room-7.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["royal"]'>
+								<a href="images/room-3.png" data-lightbox-gallery="rooms"><img src="images/room-8.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="images/room-3.png" data-lightbox-gallery="rooms"><img src="images/room-9.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["royal"]'>
+								<a href="images/room-3.png" data-lightbox-gallery="rooms"><img src="images/room-10.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["deluxe"]'>
+								<a href="images/room-3.png" data-lightbox-gallery="rooms"><img src="images/room-11.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="images/room-3.png" data-lightbox-gallery="rooms"><img src="images/room-12.png" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <footer class="mg-footer">
+                <div class="mg-footer-widget">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="widget">
+                                    <h2 class="mg-widget-title">Contactez-nous</h2>
+                                    <address>
+                                        <strong></strong><br>
+                                        Rue 3,Brenger Feraud, Sonatel Academy<br>
+                                        CTIC/DAKAR
+                                    </address>
+                    
+                                    <p>
+                                        +221 78 173 54 79<br>
+                                        +221 77 373 19 36
+                                    </p>
+                    
+                                    <p>
+                                        <a href="mailto:#">contact@myoffice.sn</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="widget">
+                                    <h2 class="mg-widget-title">Instagram</h2>
+                                    <ul class="mg-instagram">
+                                        <li><a href="#"><img src="images/ins-01.png" alt=""></a></li>
+                                        <li><a href="#"><img src="images/ins-02.png" alt=""></a></li>
+                                        <li><a href="#"><img src="images/ins-03.png" alt=""></a></li>
+                                        <li><a href="#"><img src="images/ins-04.png" alt=""></a></li>
+                                        <li><a href="#"><img src="images/ins-05.png" alt=""></a></li>
+                                        <li><a href="#"><img src="images/ins-06.png" alt=""></a></li>
+                                        <li><a href="#"><img src="images/ins-07.png" alt=""></a></li>
+                                        <li><a href="#"><img src="images/ins-08.png" alt=""></a></li>
+                                        <li><a href="#"><img src="images/ins-09.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="widget">
+                                    <h2 class="mg-widget-title">Newsletter</h2>
+                                    <p>inscrivez-vous à notre Newsletter pour ne rien manquer de nos nouveautés.</p>
+                                    <form>
+                                        <p>
+                                            <input type="email" class="form-control" placeholder="Votre Email">
+                                        </p>
+                                        <input type="submit" class="btn btn-main" value="Je m'inscris">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="widget">
+                                    <h2 class="mg-widget-title">Suivez-nous sur les réseaux sociaux</h2>
+                                    <p>
+                                            Les équipes se réunissent souvent dans les espaces Sen Office pour une réunion commerciale, pour préparer un projet, pour une présentation des objectifs ou une réunion du service marketing
+                                        .</p>
+                                    <ul class="mg-footer-social">
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        
+                                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mg-copyright">
+                    <div class="container">
+                        <div class="row">
+                            
+                            <div class="col-md-6">
+                                <ul class="mg-footer-nav">
+                                    <li><a href="#">Acceuil</a></li>
+                                    <li><a href="#apropos">A propos</a></li>
+                                    <li><a href="gallery.html">catalogue</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <p>&copy; 2018 <a href="http://www.senoffice.sn">ADOB-TECH</a>. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+		<script src="js/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jssor.slider.mini.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+		<script src="js/bootstrap-datepicker.min.js"></script>
+		<script src="js/starrr.min.js"></script>
+		<script src="js/nivo-lightbox.min.js"></script>
+		<script src="js/jquery.shuffle.min.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script src="js/gmaps.min.js"></script>
+		<script src="js/jquery.parallax-1.1.3.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
